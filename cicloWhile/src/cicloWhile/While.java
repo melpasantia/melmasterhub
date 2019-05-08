@@ -30,7 +30,7 @@ public class While {
 		while (x<=15) {
 			System.out.println("El valor de x es: " +x);
 			x =(x*2)+3;
-			System.out.println("Juan probando ");
+			System.out.println("Juan probandoo ");
 		}
 	}
 }
