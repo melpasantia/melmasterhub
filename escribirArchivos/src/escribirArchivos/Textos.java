@@ -1,7 +1,7 @@
 package escribirArchivos;
 import java.io.*;
 public class Textos {
-
+//prueba nueva Juan
 	public void escribir(String nombreArchivo) {
 		File f; //Crea un objeto de tipo archivo
 		f = new File(nombreArchivo);// Asigna un nombre al archivo
@@ -21,8 +21,8 @@ public class Textos {
 			//Escribe en el archivo lo almacenado en el buffer.
 			PrintWriter wr = new PrintWriter (bw);
 			
-			// métodos para ecribir
-			wr.write("Esto es una línea de texto");
+			// mÃ©todos para ecribir
+			wr.write("Esto es una lÃ­nea de texto");
 			wr.append ("\n -esta es una segunda linea de texto texto\n");
 			//Es necesario cerrarlos. Ahi se guarda la info.
 			wr.close();
